@@ -1,5 +1,7 @@
-t = int(input())
+import sys
 
-for i in range(1, t+1):  # 1부터 t까지
-    a, b = map(int, input().split())
-    print(f'Case #{i}: {a+b}')
+T = int(input())
+
+for i in range(1,T+1):
+    A, B = map(int, sys.stdin.readline().split())
+    print(f'Case #{i}: {A+B}')
